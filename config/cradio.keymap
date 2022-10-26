@@ -48,20 +48,7 @@
             bindings = <&kp TAB>;
         };
         
-/ {
-    macros {
-        SC_IPAD: SC_IPAD {
-            label = "SC_IPAD";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT &kp LGUI>
-                , <&macro_tap &kp 4>
-                , <&macro_release &kp LSHFT &kp LGUI>
-                ;
-        };
-    };
-};
+	
         
     };
 
