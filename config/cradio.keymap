@@ -75,10 +75,10 @@
 		
 		right_layer {
 		bindings = <
-		&kp EXCL    &kp ATSN  &kp HASH    &kp DLLR       &kp PRCT    		&kp CARET    &kp AMPS      &kp STAR     &kp LPRN    &kp RPRN 
-		&kp A &kp A &kp A   &kp A      &kp A 		&kp A     &kp A     &kp A     &kp A    &kp A
-		&trans      &trans    &trans      &trans         &trans    		&kp RCBR     &kp MINUS     &kp EQUAL    &kp END     &kp RIGHT
-					          &trans         &trans  		&kp TAB      &trans 
+		&kp A   &kp A	&kp A    &kp A   &kp A    	&kp A    &kp A     &kp A    &kp A    &kp A 
+		&kp A 	&kp A 	&kp A 	 &kp A   &kp A 		&kp A    &kp A     &kp A    &kp A    &kp A
+		&kp A   &kp A 	&kp A    &kp A   &kp A   	&kp A    &kp A     &kp A    &kp A    &kp A
+					 &kp A   &kp A    	&kp A    &kp A 
 		>;
 		};	
 		
