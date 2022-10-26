@@ -83,7 +83,7 @@
 		};	
 		
 		tri_layer {
-		bindings = <SC_IPAD
+		bindings = <
 		&trans      &trans     &kp C_VOL_UP    &trans    &trans 		&trans       &kp PG_UP     &kp UP        &kp PG_DN  &trans
 		&kp CAPS    &kp C_NEXT &kp C_VOL_DN    &kp C_PP  &trans  		&trans       &kp LEFT      &kp DOWN      &kp RIGHT  &trans 
 		&bt BT_CLR  &bt BT_NXT &bt BT_PRV      &trans    &trans   		&trans       &kp PG_DN     &kp K_VOL_DN  &trans     &trans   
