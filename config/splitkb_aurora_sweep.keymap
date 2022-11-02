@@ -52,7 +52,7 @@
         
     };
 
-        keymap {
+    };       keymap {
                 compatible = "zmk,keymap";
                 
        		default_layer {
@@ -86,10 +86,10 @@
 		bindings = <
 		&kp GRAVE   &kp TILDE  	&kp C_VOL_UP    &trans   		&trans 		&trans       &kp PG_UP     &kp UP        &kp PG_DN  &trans
 		&kp CAPS    &kp C_NEXT 	&kp C_VOL_DN    &kp C_PP  		&trans  	&trans       &kp LEFT      &kp DOWN      &kp RIGHT  &trans 
-		&bt BT_CLR  &bt BT_NXT 	&bt BT_PRV      &trans    		&trans 		&trans       &kp PG_DN     &kp K_VOL_DN  &trans     &trans   
+		&bt BT_CLR  &bt BT_NXT 	&bt BT_PRV      &trans    		&trans 		&trans       &trans    	   &trans		 &trans     &trans   
 					               				&kp LC(LG(4))   &trans 		&trans       &kp LC(LG(3))
 		>;
-		};		
+		};			
         
 	};
 };
