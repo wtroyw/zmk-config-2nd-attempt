@@ -60,7 +60,7 @@
 		&lt 3 Q      	&kp W      &kp E   	&kp R          &kp T 		&kp Y        &kp U         &kp I        &kp O       &kp P 
 		&mt LCTRL A 	&mt LALT S &mt LCTRL D 	&mt LSHIFT F   &mt LGUI G 	&mt RGUI H   &mt RSHIFT J  &mt RCTRL K  &mt RALT L  &kp SEMI
 		&mt LSHIFT Z    &kp X      &kp C   	&kp V          &kp B		&kp N        &kp M         &kp COMMA    &kp DOT     &mt RSHIFT FSLH
-          	                                   	&lt 2 ESC      &lt 3 BSPC	&lt 3 SPACE  &lt 1 RET 
+          	                                   	&lt 2 ESC      &lt 3 BSPC	&kp SPACE  &lt 1 RET 
 		>;
 		};
 
@@ -87,7 +87,7 @@
 		&kp GRAVE   &kp TILDE  	&kp C_VOL_UP    &trans  	&trans 		&trans     	&kp PG_UP 	&kp UP        	&kp PG_DN  &trans
 		&kp CAPS    &kp C_NEXT 	&kp C_VOL_DN    &kp C_PP  	&trans  	&trans     	&kp LEFT      	&kp DOWN      	&kp RIGHT  &kp INS 
 		&bt BT_CLR  &bt BT_NXT 	&bt BT_PRV      &trans    	&trans 		&trans      	&trans    	&trans		&trans     &trans   
-					               	&kp LC(LG(4))   &kp DEL		&kp TAB       	&kp LC(LG(3))
+					               	&kp LC(LG(4))   &trans		&kp DEL       	&kp LC(LG(3))
 		>;
 		};			
         
