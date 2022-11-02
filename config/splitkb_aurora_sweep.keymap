@@ -74,7 +74,7 @@
 		&kp N1      &kp N2    &kp N3      &kp N4      	&kp N5		&kp N6 	    	&kp N7        &kp N8       &kp N9      &kp N0 
 		&kp LG(TAB) &kp LG(S) &kp LG(H)   &kp LG(D)	&kp LG(SPACE) 	&kp LBRC    	&kp MINUS     &kp EQUAL    &kp PG_UP   &kp SQT 
 		&trans      &trans    &trans      &trans	&trans          &kp RBRC    	&kp UNDER     &kp PLUS     &kp PG_DN   &kp NUBS 
-					          &kp LG(LS(4))	&kp DEL  	&trans 		&trans
+					          &kp LC(LS(N4))	&kp DEL  	&trans 		&trans
 		>;
 		};
 		
@@ -83,7 +83,7 @@
 		&kp EXCL     &kp AT   	&kp HASH    &kp DLLR   &kp PRCNT   	&kp CARET    &kp AMPS      &kp STAR     &kp LPAR    &kp RPAR 
 		&kp LG(TAB)  &kp LG(S)  &kp LG(H)   &kp LG(D)  &kp LG(SPACE) 	&kp LBKT     &kp UNDER     &kp PLUS     &kp HOME    &kp DQT
 		&trans       &trans     &trans      &trans     &trans    	&kp RBKT     &kp MINUS     &kp EQUAL    &kp END     &kp PIPE
-					            &trans     &trans  		&kp TAB      &kp LG(LS(3)) 
+					            &trans     &trans  		&kp TAB      &kp LC(LS(N3)) 
 		>;
 		};	
 		
@@ -92,7 +92,7 @@
 		&kp GRAVE   &kp TILDE  	&kp C_VOL_UP    &trans  	&trans 		&trans     	&kp PG_UP 	&kp UP        	&kp PG_DN  &trans
 		&kp CAPS    &kp C_NEXT 	&kp C_VOL_DN    &kp C_PP  	&trans  	&trans     	&kp LEFT      	&kp DOWN      	&kp RIGHT  &kp INS 
 		&bt BT_CLR  &bt BT_NXT 	&bt BT_PRV      &trans    	&trans 		&trans      	&trans    	&trans		&trans     &trans   
-					               	&kp LG(LS(4))   &kp DEL		&kp TAB       	&kp LG(LS(3))
+					               	&kp LC(LS(N4))   &kp DEL		&kp TAB       	&kp LC(LS(N3))
 		>;
 		};			
         
