@@ -7,7 +7,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
   projects:
-    - name: zmk-mouse
+    - name: mouse
       remote: ftc
       revision: mouse-ftc
       import: app/west.yml
