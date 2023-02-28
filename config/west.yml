@@ -13,7 +13,7 @@ manifest:
       remote: ftc
       revision: mouse-ftc
       import: app/west.yml
-    - name: zmk-shields
+    - name: zmk
       remote: petejohanson
       revision: shields/splitkb_aurora_sweep
       import: app/west.yml
