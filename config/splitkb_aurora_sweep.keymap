@@ -72,7 +72,7 @@ behaviors {
 		&kp ESC &trans    &trans &kp F4   &trans				&tog LAYER_7 &trans   &kp UP   &trans    &kp DEL
 		&kp TAB &trans    &trans &kp LGUI &trans				&trans &kp LEFT &kp DOWN &kp RIGHT &kp SPACE
 		&trans  &kp LCTRL &trans &trans   &trans		    		&trans &kp HOME &trans   &kp END   &trans
-				     &kp LSHIFT &kp LALT				&trans &trans 
+				     &kp LSHIFT &kp LALT				&tog LAYER_0 &trans 
 		>;
 		};
 		
@@ -105,7 +105,7 @@ behaviors {
 				
 		layer_7 {
 		bindings = < 
-		&trans &trans &trans &trans &trans					&tog LAYER_0 &trans &trans &trans &trans
+		&trans &trans &trans &trans &trans					&mo LAYER_3 &trans &trans &trans &trans
 		&kp Q  &kp W  &kp E  &kp R  &kp T					&kp U       &kp I  &kp O  &kp P     &kp LBKT
 		&kp A  &kp S  &kp D  &kp F  &kp G					&kp J       &kp K  &kp L  &kp SEMI  &kp QUOT
 			   	     &kp C  &kp V 					&kp N       &kp M
