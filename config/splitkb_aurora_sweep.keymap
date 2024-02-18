@@ -29,7 +29,9 @@ macros {
 	compatible = "zmk,behavior-macro";
 	label = "STEN_ON";
 	#binding-cells = <0>;
-	bindings = <&macro_tap &tog LAYER_7 &kp E &kp F &kp R &kp V &kp O &kp L>;
+	bindings = <&macro_tap &tog LAYER_7>
+		, <&macro_press &kp E &kp F &kp R &kp V &kp O &kp L>
+		, <&macro_release&kp E &kp F &kp R &kp V &kp O &kp L>;
         };
     };
 };
@@ -40,7 +42,9 @@ macros {
 	compatible = "zmk,behavior-macro";
 	label = "STEN_OFF";
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp E &kp F &kp R &kp V &kp O &kp L &tog LAYER_0>;
+	bindings = <&macro_tap &tog LAYER_0>
+		, <&macro_press &kp E &kp F &kp R &kp V &kp O &kp L>
+		, <&macro_release&kp E &kp F &kp R &kp V &kp O &kp L>;
         };
     };
 };
@@ -101,9 +105,9 @@ behaviors {
 		layer_4 {
 		bindings = <
 		&trans &trans &trans &trans &trans					&kp KP_PLUS  &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MULTIPLY
-		&trans &trans &trans &trans &trans					&kp KP_MINUS &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_DIVIDE
+		&kp KP_N2 &trans &kp KP_N3 &kp KP_N1 &trans				&kp KP_MINUS &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_DIVIDE
 		&trans &trans &trans &trans &trans					&kp KP_N0    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
-				 &trans &kp KP_NUM	 				&kp KP_DOT   &kp KP_ENTER
+			     &kp RSHIFT &kp KP_NUM	 				&kp KP_DOT   &kp KP_ENTER
 		>;
 		};
 		
