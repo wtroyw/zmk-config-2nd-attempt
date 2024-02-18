@@ -34,6 +34,17 @@ macros {
     };
 };
 
+/ {
+macros {
+	sten_off: sten_off {
+	compatible = "zmk,behavior-macro";
+	label = "STEN_OFF";
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp E &kp F &kp R &kp V &kp O &kp L &tog LAYER_0>;
+        };
+    };
+};
+
 / { 
 behaviors {
 
@@ -83,7 +94,7 @@ behaviors {
 		&kp ESC &trans    &trans &kp F4   &trans				&sten_on &trans   &kp UP   &trans    &kp DEL
 		&kp TAB &trans    &trans &kp LGUI &trans				&trans &kp LEFT &kp DOWN &kp RIGHT &kp SPACE
 		&trans  &kp LCTRL &trans &trans   &trans		    		&trans &kp HOME &trans   &kp END   &trans
-				     &kp LSHIFT &kp LALT				&tog LAYER_0 &trans 
+				     &kp LSHIFT &kp LALT				&sten_off &trans 
 		>;
 		};
 		
