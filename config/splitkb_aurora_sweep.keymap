@@ -23,6 +23,18 @@
    // tapping_term_ms = <200>;
 };
 
+/ {
+    macros {
+        sten_on: sten_on {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &tog LAYER_7 &kp E &kp F &kp R &kp V &kp O &kp L>
+                ;
+        };
+    };
+};
+
 / { 
 behaviors {
 
@@ -69,7 +81,7 @@ behaviors {
 		
 		layer_3 {
 		bindings = <
-		&kp ESC &trans    &trans &kp F4   &trans				&tog LAYER_7 &trans   &kp UP   &trans    &kp DEL
+		&kp ESC &trans    &trans &kp F4   &trans				&sten_on &trans   &kp UP   &trans    &kp DEL
 		&kp TAB &trans    &trans &kp LGUI &trans				&trans &kp LEFT &kp DOWN &kp RIGHT &kp SPACE
 		&trans  &kp LCTRL &trans &trans   &trans		    		&trans &kp HOME &trans   &kp END   &trans
 				     &kp LSHIFT &kp LALT				&tog LAYER_0 &trans 
