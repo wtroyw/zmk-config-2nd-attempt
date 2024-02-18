@@ -29,7 +29,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &tog LAYER_7 &kp E &kp F &kp R &kp V &kp O &kp L>
+                = <&macro_tap &kp E &kp F &kp R &kp V &kp O &kp L>
                 ;
         };
     };
