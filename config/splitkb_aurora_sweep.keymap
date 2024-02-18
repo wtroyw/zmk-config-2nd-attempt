@@ -24,13 +24,12 @@
 };
 
 / {
-    macros {
-        sten_on: sten_on {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp E &kp F &kp R &kp V &kp O &kp L>
-                ;
+macros {
+	sten_on: sten_on {
+	compatible = "zmk,behavior-macro";
+	label = "STEN_ON";
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp E &kp F &kp R &kp V &kp O &kp L>;
         };
     };
 };
