@@ -34,6 +34,10 @@ macros {
 		, <&macro_release&kp E &kp F &kp R &kp V &kp O &kp L>;
         };
     };
+};
+
+/ {
+macros {
 	sten_off: sten_off {
 	compatible = "zmk,behavior-macro";
 	label = "STEN_OFF";
@@ -44,7 +48,6 @@ macros {
         };
     };
 };
-
 
 / { 
 behaviors {
