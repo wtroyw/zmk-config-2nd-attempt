@@ -131,10 +131,10 @@ behaviors {
 				
 		layer_7 {
 		bindings = < 
-		&none &none &none &none &none						&to LAYER_3 &none &none &none    &sten_off
-		&kp Q &kp W &kp E &kp R &kp T						&kp U &kp I &kp O &kp P    &kp LBKT
-		&kp A &kp S &kp D &kp F &kp G						&kp J &kp K &kp L &kp SEMI &kp QUOT
-			   	  &kp C &kp V 						&kp N &kp M
+		&none &none &none &none &none						&tog LAYER_3 &none  &none &none    &none 
+		&kp Q &kp W &kp E &kp R &kp T						&kp U 	     &kp I  &kp O &kp P    &kp LBKT
+		&kp A &kp S &kp D &kp F &kp G						&kp J        &kp K  &kp L &kp SEMI &kp QUOT
+			   	  &kp C &kp V 						&kp N        &kp M
 		>;
 		};
 	};
