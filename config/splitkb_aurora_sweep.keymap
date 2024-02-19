@@ -34,20 +34,17 @@ macros {
 		, <&macro_release&kp E &kp F &kp R &kp V &kp O &kp L>;
         };
     };
-};
-
-/ {
-macros {
 	sten_off: sten_off {
 	compatible = "zmk,behavior-macro";
 	label = "STEN_OFF";
 	#binding-cells = <0>;
-	bindings = <&macro_press &kp E &kp F &kp R &kp V &kp O &kp L>
-		, <&macro_release &kp E &kp F &kp R &kp V &kp O &kp L>
-		, <&macro_tap &tog LAYER_0>;
+	bindings = <&macro_tap &tog LAYER_0>
+		, <&macro_press &kp E &kp F &kp R &kp V &kp O &kp L>
+		, <&macro_release &kp E &kp F &kp R &kp V &kp O &kp L>;
         };
     };
 };
+
 
 / { 
 behaviors {
@@ -71,7 +68,7 @@ behaviors {
 		&kp Q &kp W          &kp E          &kp R           &kp T		&kp Y &kp U          &kp I          &kp O          &kp P 
 		&kp A &ldt LAYER_4 S &kp D          &ldt LAYER_6 F  &kp G	        &kp H &ldt LAYER_2 J &ldt LAYER_1 K &ldt LAYER_5 L &kp QUOT
 		&kp Z &mt LCTRL X    &mt LALT C     &kp V           &kp B		&kp N &kp M          &mt RALT CMMA  &mt RCTRL DOT  &kp SLASH
-          			   &mt LSHIFT CAPS &kp SPACE  				&ldt LAYER_3 BSPC &kp ENTER 
+          				        &mt LSHIFT CAPS &kp SPACE  		&ldt LAYER_3 BSPC &kp ENTER 
 		>;
 		};
 
@@ -95,19 +92,19 @@ behaviors {
 		
 		layer_3 {
 		bindings = <
-		&kp ESC &trans    &trans &kp F4   &trans				&sten_on &trans   &kp UP   &trans    &kp DEL
-		&kp TAB &trans    &trans &kp LGUI &trans				&trans &kp LEFT &kp DOWN &kp RIGHT &kp SPACE
-		&trans  &kp LCTRL &trans &trans   &trans		    		&trans &kp HOME &trans   &kp END   &trans
+		&kp ESC &trans    &trans &kp F4   &trans				&sten_on  &trans   &kp UP   &trans    &kp DEL
+		&kp TAB &trans    &trans &kp LGUI &trans				&trans    &kp LEFT &kp DOWN &kp RIGHT &kp SPACE
+		&trans  &kp LCTRL &trans &trans   &trans		    		&trans    &kp HOME &trans   &kp END   &trans
 				     &kp LSHIFT &kp LALT				&sten_off &trans 
 		>;
 		};
 		
 		layer_4 {
 		bindings = <
-		&trans &trans &trans &trans &trans					&kp KP_PLUS  &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MULTIPLY
+		&trans    &trans &trans    &trans    &trans				&kp KP_PLUS  &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MULTIPLY
 		&kp KP_N2 &trans &kp KP_N3 &kp KP_N1 &trans				&kp KP_MINUS &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_DIVIDE
-		&trans &trans &trans &trans &trans					&kp KP_N0    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
-			     &kp RSHIFT &kp KP_NUM	 				&kp KP_DOT   &kp KP_ENTER
+		&trans    &trans &trans    &trans    &trans				&kp KP_N0    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
+			     	      &kp RSHIFT &kp KP_NUM 				&kp KP_DOT   &kp KP_ENTER
 		>;
 		};
 		
@@ -131,10 +128,10 @@ behaviors {
 				
 		layer_7 {
 		bindings = < 
-		&trans &trans &trans &trans &trans					&mo LAYER_3 &trans &trans &trans &sten_off
-		&kp Q  &kp W  &kp E  &kp R  &kp T					&kp U       &kp I  &kp O  &kp P     &kp LBKT
-		&kp A  &kp S  &kp D  &kp F  &kp G					&kp J       &kp K  &kp L  &kp SEMI  &kp QUOT
-			   	     &kp C  &kp V 					&kp N       &kp M
+		&none &none &none &none &none						&ldt LAYER_3 BSPC &none &none &none    &sten_off
+		&kp Q &kp W &kp E &kp R &kp T						&kp U &kp I &kp O &kp P    &kp LBKT
+		&kp A &kp S &kp D &kp F &kp G						&kp J &kp K &kp L &kp SEMI &kp QUOT
+			   	  &kp C &kp V 						&kp N &kp M
 		>;
 		};
 	};
