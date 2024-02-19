@@ -42,9 +42,9 @@ macros {
 	compatible = "zmk,behavior-macro";
 	label = "STEN_OFF";
 	#binding-cells = <0>;
-	bindings = <&macro_tap &tog LAYER_0>
-		, <&macro_press &kp E &kp F &kp R &kp V &kp O &kp L>
-		, <&macro_release &kp E &kp F &kp R &kp V &kp O &kp L>;
+	bindings = <&macro_press &kp E &kp F &kp R &kp V &kp O &kp L>
+		, <&macro_release &kp E &kp F &kp R &kp V &kp O &kp L>
+		, <&macro_tap &tog LAYER_0>;
         };
     };
 };
